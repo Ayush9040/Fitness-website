@@ -413,3 +413,142 @@ header .right-side-menu .sub-menu a li:hover{
 #section-four .right-side{
     margin-top: 5rem;
 }
+
+/* section 5 */
+
+#section-five{
+    padding: 0rem 12rem;
+    height: 50rem;
+}
+
+#section-five .left-side img{
+    margin-left: 0;
+}
+
+#section-five .right-side{
+    justify-content: flex-start;
+    padding-top: 5rem;
+    margin-left: 0;
+}
+
+#section-five .right-side h2{
+    width: 53rem;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 2.3rem;
+}
+
+#section-five .right-side h3{
+    text-transform: none;
+}
+
+#section-five .right-side p{
+    height: 3rem;
+}
+
+#section-five .right-side div{
+    margin-bottom: 3rem;
+}
+
+.fa-heart{
+    color: var(--primary-button-background);
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    background-color: var(--background-color);
+    height: auto;
+    padding: 5rem 12rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer img{
+    width: 13rem;
+    height: 5.5rem;
+}
+
+footer .footer-menu{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer div h4{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+
+footer div a{
+    font-size: 1.7rem;
+    line-height: 150%;
+}
+
+footer .footer-div-5 a{
+    font-size: 1.5rem;
+}
+
+/* social section */
+
+.icon-bar{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.icon-bar a{
+    width: 18rem;
+    background: #3b5999;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.7rem;
+    padding: 0.5rem;
+    transition: all 0.5s linear;
+    transform: translateX(-14.5rem);
+
+}
+
+.icon-bar a i{
+    margin-left: 1rem;
+    font-size: 3rem;
+    animation: letszoom 3s linear alternate-reverse infinite;
+}
+
+@keyframes letszoom {
+    from{
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.icon-bar a:hover{
+    transform: translateX(0);
+}
+
+.icon-bar .facebook{
+    background: blue;
+}
+
+.icon-bar .telegram{
+    background: lightblue;
+}
+
+.icon-bar .instagram{
+    background: maroon;
+}
+
+.icon-bar .linkedin{
+    background: royalblue;
+}
+
+.icon-bar .youtube{
+    background: red;
+}
